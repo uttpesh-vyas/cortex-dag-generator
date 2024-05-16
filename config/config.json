@@ -1,18 +1,18 @@
 {
-    "testData": true,
+    "testData": false,
     "deploySAP": true,
-    "deployDataMesh": true,
-    "turboMode": true,
-    "projectIdSource": "",
-    "projectIdTarget": "",
+    "deployDataMesh": false,
+    "turboMode": false,
+    "projectIdSource": "dhfs-analytics-prod-1158",
+    "projectIdTarget": "dhfs-analytics-dev-qa-4800",
     "location": "US",
-    "targetBucket": "",
+    "targetBucket": "dh-cortex",
     "languages": [
         "E",
-        "S"
+        "D"
     ],
     "currencies": [
-        "USD"
+        "EUR"
     ],
     "DataMesh": {
         "deployDescriptions": true,
@@ -23,12 +23,12 @@
     "SAP": {
         "deployCDC": true,
         "datasets": {
-            "cdc": "",
-            "raw": "",
-            "ml": "ML_MODELS",
-            "reporting": "REPORTING"
+            "cdc": "cl_cortex",
+            "raw": "RAW_SAP_DP1",
+            "ml": "cl_cortex",
+            "reporting": "rl_fsa_test"
         },
-        "SQLFlavor": "ecc",
+        "SQLFlavor": "s4",
         "mandt": "100"
     }
 }

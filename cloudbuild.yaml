@@ -99,7 +99,7 @@ steps:
         echo "==Skipping Data Mesh=="
       fi
 
-logsBucket: "gs://${_GCS_BUCKET}"
+logsBucket: 'gs://dh-cortex-logs'
 timeout: 7200s
 substitutions:
   _CONFIG_FILE: "config/config.json"
