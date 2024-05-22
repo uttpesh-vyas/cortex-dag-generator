@@ -31,5 +31,7 @@ data_to_replicate:
   - base_table: cdhdr
     load_frequency: "RUNTIME"
   - base_table: tka02
-    load_frequency: "RUNTIME"                    
+    load_frequency: "RUNTIME" 
+  - base_table: ceps
+    load_frequency: "RUNTIME"                      
 {% endif %}
