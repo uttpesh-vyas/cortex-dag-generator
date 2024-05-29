@@ -33,5 +33,7 @@ data_to_replicate:
   - base_table: tka02
     load_frequency: "RUNTIME" 
   - base_table: cepc
-    load_frequency: "RUNTIME"                      
+    load_frequency: "RUNTIME"      
+  - base_table: prps
+    load_frequency: "RUNTIME"                    
 {% endif %}
