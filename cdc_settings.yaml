@@ -39,5 +39,5 @@ data_to_replicate:
   - base_table: aufk
     load_frequency: "RUNTIME"    
   - base_table: ankt
-    load_frequency: "@hourly"                      
+    load_frequency: "RUNTIME"                      
 {% endif %}
