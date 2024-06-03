@@ -39,5 +39,9 @@ data_to_replicate:
   - base_table: aufk
     load_frequency: "RUNTIME"    
   - base_table: ankt
-    load_frequency: "RUNTIME"                      
+    load_frequency: "RUNTIME"
+  - base_table: tfk042zt
+    load_frequency: "RUNTIME"  
+  - base_table: tvktt
+    load_frequency: "RUNTIME"                        
 {% endif %}
