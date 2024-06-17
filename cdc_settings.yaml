@@ -49,5 +49,23 @@ data_to_replicate:
   - base_table: j_1afitpv
     load_frequency: "RUNTIME"  
   - base_table: j_1afitpvt
-    load_frequency: "RUNTIME"                                
+    load_frequency: "RUNTIME"     
+  - base_table: t052u
+    load_frequency: "RUNTIME"  
+  - base_table: tvkt
+    load_frequency: "RUNTIME"    
+  - base_table: tpart
+    load_frequency: "RUNTIME"
+  - base_table: tvv1
+    load_frequency: "RUNTIME"  
+  - base_table: tvv2
+    load_frequency: "RUNTIME"
+  - base_table: tvv3
+    load_frequency: "RUNTIME"  
+  - base_table: tvv4
+    load_frequency: "RUNTIME"  
+  - base_table: tvv5
+    load_frequency: "RUNTIME"    
+  - base_table: t005t   
+    load_frequency: "RUNTIME"
 {% endif %}
