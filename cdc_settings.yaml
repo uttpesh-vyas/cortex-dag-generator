@@ -43,5 +43,11 @@ data_to_replicate:
   - base_table: tfk042zt
     load_frequency: "RUNTIME"  
   - base_table: tvktt
-    load_frequency: "RUNTIME"                        
+    load_frequency: "RUNTIME"
+  - base_table: J_1AFITP
+    load_frequency: "RUNTIME"  
+  - base_table: J_1AFITPV
+    load_frequency: "RUNTIME"  
+  - base_table: J_1AFITPVT
+    load_frequency: "RUNTIME"                                
 {% endif %}
