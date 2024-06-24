@@ -72,4 +72,6 @@ data_to_replicate:
     load_frequency: "RUNTIME"
   - base_table: tgsbt   
     load_frequency: "RUNTIME"
+  - base_table: tfsc01t   
+    load_frequency: "RUNTIME"
 {% endif %}
