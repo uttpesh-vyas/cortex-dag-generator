@@ -70,6 +70,6 @@ data_to_replicate:
     load_frequency: "RUNTIME"
   - base_table: tfk2606t   
     load_frequency: "RUNTIME"
-  - base_table: tfk042zt   
+  - base_table: tgsbt   
     load_frequency: "RUNTIME"
 {% endif %}
