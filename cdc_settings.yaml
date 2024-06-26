@@ -74,8 +74,6 @@ data_to_replicate:
     load_frequency: "RUNTIME"
   - base_table: tfsc01t   
     load_frequency: "RUNTIME"
-  - base_table: cepc   
-    load_frequency: "RUNTIME"
   - base_table: cepct   
     load_frequency: "RUNTIME"
 {% endif %}
