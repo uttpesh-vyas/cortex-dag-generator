@@ -78,4 +78,6 @@ data_to_replicate:
     load_frequency: "RUNTIME"
   - base_table: makt   
     load_frequency: "RUNTIME"
+  - base_table: tvfkt   
+    load_frequency: "RUNTIME"
 {% endif %}
