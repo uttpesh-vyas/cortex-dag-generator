@@ -80,4 +80,6 @@ data_to_replicate:
     load_frequency: "RUNTIME"
   - base_table: tvfkt   
     load_frequency: "RUNTIME"
+  - base_table: TFKTAXNUMTYPE_T
+    load_frequency: "RUNTIME"
 {% endif %}
