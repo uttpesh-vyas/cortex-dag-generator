@@ -84,4 +84,6 @@ data_to_replicate:
     load_frequency: "RUNTIME"
   - base_table: t077x
     load_frequency: "RUNTIME"
+  - base_table: tskdt
+    load_frequency: "RUNTIME"
 {% endif %}
