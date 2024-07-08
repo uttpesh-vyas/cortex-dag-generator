@@ -102,4 +102,6 @@ data_to_replicate:
     load_frequency: "RUNTIME"
   - base_table: dfkktaxex
     load_frequency: "RUNTIME"
+  - base_table: tfk047ft
+    load_frequency: "RUNTIME"
 {% endif %}
