@@ -122,4 +122,6 @@ data_to_replicate:
     load_frequency: "RUNTIME"
   - base_table: tvv5t
     load_frequency: "RUNTIME"
+  - base_table: tb002
+    load_frequency: "RUNTIME"
 {% endif %}
